@@ -1,0 +1,86 @@
+[
+{
+"id": 1,
+"name": "Sen. Augustine Akobunduh",
+"gender": "Male",
+"term": "2023 - 2027",
+"state": "Abia",
+"district": "Abia Central",
+"office": "Senator",
+"dob": "1956-03-10",
+"image": "https://res.cloudinary.com/dqhawdcol/image/upload/v1744019705/qmitera5qlsrffhc96rz.jpg",
+"party": "PDP",
+"phone": "08033169941",
+"email": "aoakobundu@senatenass.gov.ng",
+"address": "No 7A Factory Road, Umuahia, Abia State",
+"postedDate": "2025-04-14T19:17:00Z"
+},
+
+{
+"id": 2,
+"name": "Sen. Orji Uzor Kalu",
+"gender": "Male",
+"term": "2023 - 2027",
+"state": "Abia",
+"district": "Abia North",
+"office": "Senate Chief Whip",
+"dob": "1960-04-21",
+"image": "https://res.cloudinary.com/dqhawdcol/image/upload/v1744020431/uf7b5k5g8auuq5cvzmlo.jpg",
+"party": "APC",
+"phone": "08034000001",
+"email": "okalu@orjikalu.com",
+"address": "Onu Ibina Square, Igbere, Bende LGA, Abia State",
+"postedDate": "2025-04-14T22:20:00Z"
+},
+
+{
+"id": 3,
+"name": "Sen. Enyinnaya Harcourt Abaribe",
+"gender": "Male",
+"term": "2023 - 2027",
+"state": "Abia",
+"district": "Abia South",
+"office": "Senate Minority Leader",
+"dob": "1955-03-01",
+"image": "https://res.cloudinary.com/dqhawdcol/image/upload/v1744020931/rckyebauevvxrerjxztg.jpg",
+"party": "APGA",
+"phone": "08033129400",
+"email": "enyiabaribey@yahoo.com",
+"address": "147 Market Road Aba",
+"postedDate": "2025-04-14T22:23:00Z"
+},
+
+{
+"id": 4,
+"name": "Sen. Aminu Abbas",
+"gender": "Male",
+"term": "2023 - 2027",
+"state": "Adamawa",
+"district": "Adamawa Central",
+"office": "Senator",
+"dob": "1956-03-10",
+"image": "https://res.cloudinary.com/dqhawdcol/image/upload/v1744021209/c2cqmm8m8fkbgtoiezjw.jpg",
+"party": "PDP",
+"phone": "",
+"email": "iyaabbas@gmail.com",
+"address": "",
+"postedDate": "2025-04-14T22:28:00Z"
+},
+
+{
+"id": 5,
+"name": "Sen. Binos Dauda Yaroe",
+"gender": "Male",
+"term": "2023 - 2027",
+"state": "Adamawa",
+"district": "Adamawa South",
+"office": "Senator",
+"dob": "1955-01-01",
+"image": "https://res.cloudinary.com/dqhawdcol/image/upload/v1744021768/kycn3nuvol962dvwmliq.jpg",
+"party": "PDP",
+"phone": "08034050460",
+"email": "bdyaroe@gmail.com",
+"address": "Makwada Street, Opposite Makwada Square, Numan, Adamawa State",
+"postedDate": "2025-04-15T05:24:00Z"
+}
+]
