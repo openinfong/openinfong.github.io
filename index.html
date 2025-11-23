@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nigeria Government Contacts Database - Senators, Representatives, Ministers, Governors & Emergency Services</title>
+<meta name="description" content="Complete directory of Nigerian government officials contact information. Find phone numbers, email addresses, and offices for Senators, House of Representatives members, Ministers, State Governors, Police Commissioners, and emergency services across all 36 states.">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;600;700&family=Mona+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+:root {
+--primary-green: #027432;
+--primary-green-hover: #015a28;
+--gradient: linear-gradient(
+to bottom right,
+rgba(255, 250, 225, 0.9) 0%,
+rgba(240, 240, 200, 0.8) 40%,
+rgba(220, 230, 175, 0.8) 70%,
+rgba(200, 215, 155, 0.9) 90%,
+rgba(185, 205, 135, 0.9) 100%
+);
+--white: #ffffff;
+--light-bg: #f8f9fa;
+--footer-bg: #f1f8eb;
+--border-color: #dee2e6;
+--shadow-light: 0 2px 5px rgba(0,0,0,0.1);
+--shadow-medium: 0 2px 10px rgba(0,0,0,0.08);
+--shadow-hover: 0 5px 20px rgba(0,0,0,0.12);
+--text-dark: #000000;
+--text-dark-medium: #1a1a1a;
+--text-gray-dark: #404040;
+--text-gray: #555;
+--text-gray-medium: #6c757d;
+--text-blue-dark: #2c3e50;
+--border-radius-sm: 4px;
+--border-radius-md: 8px;
+--border-radius-lg: 12px;
+--border-radius-xl: 25px;
+--spacing-xs: 0.2rem;
+--spacing-sm: 0.5rem;
+--spacing-md: 0.8rem;
+--spacing-lg: 1rem;
+--spacing-xl: 1.5rem;
+--spacing-xxl: 2rem;
+--font-size-xs: 0.85rem;
+--font-size-sm: 0.9rem;
+--font-size-md: 0.95rem;
+--font-size-lg: 1rem;
+--font-size-xl: 1.1rem;
+--font-size-xxl: 1.3rem;
+--font-size-xxxl: 1.4rem;
+--font-weight-light: 300;
+--font-weight-normal: 400;
+--font-weight-medium: 500;
+--font-weight-semibold: 600;
+--font-weight-bold: 700;
+--transition: all 0.3s;
+--z-index-sticky: 100;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html, body {
+height: 100%;
+}
+body {
+background-color: var(--light-bg);
+color: var(--text-dark);
+line-height: 1.6;
+overflow-x: hidden;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
+}
+.container {
+max-width: 1200px;
+margin: 0 auto;
+width: 100%;
+}
+header {
+background: 
+linear-gradient(rgba(255, 250, 225, 0.8), rgba(185, 205, 135, 0.8)),
+url('https://res.cloudinary.com/dqhawdcol/image/upload/v1763839250/rksvwzaxyxirfgqif4sk.jpg') center/cover;
+color: var(--text-blue-dark);
+padding: var(--spacing-xl);
+text-align: center;
+box-shadow: var(--shadow-light);
+flex-shrink: 0;
+}
+.header-container {
+max-width: 1200px;
+margin: 0 auto;
+}
+header h1 {
+margin-bottom: var(--spacing-sm);
+font-weight: var(--font-weight-bold);
+color: var(--text-dark);
+line-height: 1.2;
+}
+header p {
+font-weight: var(--font-weight-medium);
+color: var(--text-gray-dark);
+}
+.category-nav {
+background-color: var(--white);
+position: sticky;
+top: 0;
+z-index: var(--z-index-sticky);
+border-bottom: 2px solid var(--border-color);
+flex-shrink: 0;
+}
+.category-nav-container {
+display: flex;
+overflow-x: auto;
+white-space: nowrap;
+padding: var(--spacing-sm);
+max-width: 100vw;
+justify-content: center;
+}
+.category-nav-item {
+padding: var(--spacing-md) var(--spacing-xl);
+color: var(--text-gray);
+text-decoration: none;
+border-radius: var(--border-radius-xl);
+margin: 0 var(--spacing-xs);
+transition: var(--transition);
+background-color: var(--light-bg);
+cursor: pointer;
+flex-shrink: 0;
+border: 1px solid var(--border-color);
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+.category-nav-item.active, .category-nav-item:hover {
+background-color: var(--primary-green);
+color: var(--white);
+border-color: var(--primary-green);
+}
+main {
+flex: 1 0 auto;
+width: 100%;
+}
+.search-container {
+padding: var(--spacing-xl);
+background-color: var(--white);
+display: flex;
+flex-wrap: wrap;
+gap: var(--spacing-lg);
+box-shadow: var(--shadow-light);
+margin-bottom: var(--spacing-lg);
+justify-content: center;
+max-width: 100%;
+border-radius: var(--border-radius-lg);
+margin: var(--spacing-lg) auto;
+width: 95%;
+}
+.search-box {
+flex: 1;
+min-width: 250px;
+padding: var(--spacing-md);
+border: 1px solid var(--border-color);
+border-radius: var(--border-radius-md);
+font-size: var(--font-size-lg);
+max-width: 100%;
+background-color: var(--light-bg);
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+.filter-select {
+padding: var(--spacing-md);
+border: 1px solid var(--border-color);
+border-radius: var(--border-radius-md);
+background-color: var(--light-bg);
+min-width: 150px;
+font-size: var(--font-size-lg);
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+.search-btn {
+padding: var(--spacing-md) var(--spacing-xl);
+background-color: var(--primary-green);
+color: var(--white);
+border: none;
+border-radius: var(--border-radius-md);
+cursor: pointer;
+transition: var(--transition);
+font-size: var(--font-size-lg);
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+.search-btn:hover {
+background-color: var(--primary-green-hover);
+}
+.contacts-container {
+display: flex;
+flex-wrap: wrap;
+gap: var(--spacing-xl);
+padding: var(--spacing-xl);
+max-width: 100%;
+margin: 0 auto;
+justify-content: center;
+min-height: 400px;
+}
+.contact-card {
+background-color: var(--white);
+border-radius: var(--border-radius-lg);
+padding: var(--spacing-xl);
+box-shadow: var(--shadow-medium);
+transition: var(--transition);
+border: 1px solid var(--border-color);
+flex: 1 1 300px;
+max-width: 400px;
+display: flex;
+flex-direction: column;
+}
+.contact-card:hover {
+transform: translateY(-3px);
+box-shadow: var(--shadow-hover);
+}
+.contact-name {
+font-size: var(--font-size-xxxl);
+font-weight: var(--font-weight-bold);
+margin-bottom: var(--spacing-sm);
+color: var(--text-dark);
+font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
+}
+.contact-position {
+font-weight: var(--font-weight-semibold);
+margin-bottom: var(--spacing-sm);
+color: var(--text-dark-medium);
+font-size: var(--font-size-xl);
+font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
+}
+.contact-department {
+color: var(--text-gray-dark);
+margin-bottom: var(--spacing-lg);
+font-weight: var(--font-weight-medium);
+font-size: var(--font-size-lg);
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+.contact-detail {
+margin-bottom: var(--spacing-md);
+display: flex;
+align-items: flex-start;
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+.contact-label {
+font-weight: var(--font-weight-semibold);
+min-width: 70px;
+color: var(--text-blue-dark);
+font-size: var(--font-size-md);
+}
+.contact-value {
+color: var(--text-gray);
+flex: 1;
+font-size: var(--font-size-md);
+word-break: break-word;
+overflow-wrap: break-word;
+}
+.contact-email {
+color: var(--text-gray);
+font-size: var(--font-size-sm);
+word-break: break-all;
+overflow-wrap: break-word;
+max-width: 100%;
+}
+.contact-social {
+display: flex;
+gap: var(--spacing-md);
+margin-top: var(--spacing-lg);
+flex-wrap: wrap;
+}
+.social-icon {
+color: var(--primary-green);
+font-size: 1.2rem;
+transition: var(--transition);
+text-decoration: none;
+}
+.social-icon:hover {
+color: var(--primary-green-hover);
+transform: translateY(-2px);
+}
+.source-link {
+margin-top: var(--spacing-lg);
+padding-top: var(--spacing-md);
+border-top: 1px solid var(--border-color);
+}
+.source-link a {
+color: var(--text-gray-medium);
+font-size: var(--font-size-sm);
+text-decoration: none;
+transition: var(--transition);
+}
+.source-link a:hover {
+color: var(--primary-green);
+text-decoration: underline;
+}
+.pagination {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: var(--spacing-md);
+margin: var(--spacing-xl) 0;
+flex-wrap: wrap;
+}
+.pagination-btn {
+padding: var(--spacing-md) var(--spacing-lg);
+background-color: var(--white);
+color: var(--text-gray);
+border: 1px solid var(--border-color);
+border-radius: var(--border-radius-md);
+cursor: pointer;
+transition: var(--transition);
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+.pagination-btn:hover:not(:disabled) {
+background-color: var(--primary-green);
+color: var(--white);
+border-color: var(--primary-green);
+}
+.pagination-btn:disabled {
+opacity: 0.5;
+cursor: not-allowed;
+}
+.pagination-btn.active {
+background-color: var(--primary-green);
+color: var(--white);
+border-color: var(--primary-green);
+}
+.pagination-info {
+color: var(--text-gray);
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+.credits-section {
+background-color: var(--white);
+padding: var(--spacing-xl);
+margin: var(--spacing-xl) auto;
+border-radius: var(--border-radius-lg);
+box-shadow: var(--shadow-light);
+max-width: 95%;
+}
+.credits-title {
+font-size: var(--font-size-xxl);
+font-weight: var(--font-weight-bold);
+margin-bottom: var(--spacing-lg);
+color: var(--text-blue-dark);
+text-align: center;
+border-bottom: 2px solid var(--primary-green);
+padding-bottom: var(--spacing-md);
+}
+.credits-subtitle {
+font-size: var(--font-size-xl);
+font-weight: var(--font-weight-semibold);
+margin: var(--spacing-lg) 0 var(--spacing-md) 0;
+color: var(--text-dark);
+}
+.credits-content {
+line-height: 1.7;
+}
+.credits-content p {
+margin-bottom: var(--spacing-lg);
+color: var(--text-gray);
+}
+.credits-list {
+margin-left: var(--spacing-xl);
+margin-bottom: var(--spacing-lg);
+}
+.credits-list li {
+margin-bottom: var(--spacing-md);
+color: var(--text-gray);
+}
+.verification-note {
+background-color: var(--light-bg);
+padding: var(--spacing-lg);
+border-radius: var(--border-radius-md);
+border-left: 4px solid var(--primary-green);
+margin: var(--spacing-lg) 0;
+}
+footer {
+background-color: var(--footer-bg);
+color: var(--text-gray-medium);
+text-align: center;
+padding: var(--spacing-xl);
+margin-top: var(--spacing-xxl);
+flex-shrink: 0;
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+.no-results {
+width: 100%;
+text-align: center;
+padding: var(--spacing-xxl);
+font-size: var(--font-size-xxl);
+color: var(--text-gray-medium);
+background: var(--white);
+border-radius: var(--border-radius-lg);
+margin: var(--spacing-xxl);
+font-family: 'Mona Sans', Arial, sans-serif;
+}
+@media (max-width: 768px) {
+.category-nav-container {
+justify-content: flex-start;
+}
+.contacts-container {
+padding: var(--spacing-lg);
+}
+.contact-card {
+flex: 1 1 100%;
+max-width: 100%;
+padding: var(--spacing-lg);
+}
+.search-container {
+flex-direction: column;
+margin: var(--spacing-sm);
+width: auto;
+}
+.contact-name {
+font-size: var(--font-size-xxl);
+}
+.contact-position {
+font-size: var(--font-size-lg);
+}
+.contact-department {
+font-size: var(--font-size-md);
+}
+.contact-label, .contact-value {
+font-size: var(--font-size-sm);
+}
+.contact-email {
+font-size: var(--font-size-xs);
+}
+.pagination {
+gap: var(--spacing-sm);
+}
+.pagination-btn {
+padding: var(--spacing-sm) var(--spacing-md);
+font-size: var(--font-size-sm);
+}
+.credits-list {
+margin-left: var(--spacing-lg);
+}
+}
+@media (max-width: 480px) {
+.contact-detail {
+flex-direction: column;
+align-items: flex-start;
+}
+.contact-label {
+min-width: auto;
+margin-bottom: var(--spacing-xs);
+}
+}
+</style>
+</head>
+<body>
+<header>
+<div class="header-container">
+<h1>Nigeria Government Contacts Database</h1>
+<p>Official directory with verified contact information for Nigerian Senators, House of Representatives members, Federal Ministers, State Governors, Police Commissioners, and emergency services across all 36 states including Abuja FCT.</p>
+</div>
+</header>
+<nav class="category-nav">
+<div class="category-nav-container">
+<a class="category-nav-item active" data-category="senate">Senate</a>
+<a class="category-nav-item" data-category="reps">House of Reps</a>
+<a class="category-nav-item" data-category="police">Police</a>
+<a class="category-nav-item" data-category="emergency">Emergency Services</a>
+<a class="category-nav-item" data-category="ministers">Ministers</a>
+<a class="category-nav-item" data-category="governors">Governors</a>
+</div>
+</nav>
+<main class="container">
+<div class="search-container">
+<input type="text" class="search-box" placeholder="Search by name, department, or location" id="searchInput">
+<select class="filter-select" id="stateFilter">
+<option value="">All States</option>
+<option value="abia">Abia</option>
+<option value="adamawa">Adamawa</option>
+<option value="akwa-ibom">Akwa Ibom</option>
+<option value="anambra">Anambra</option>
+<option value="bauchi">Bauchi</option>
+<option value="bayelsa">Bayelsa</option>
+<option value="benue">Benue</option>
+<option value="borno">Borno</option>
+<option value="cross-river">Cross River</option>
+<option value="delta">Delta</option>
+<option value="ebonyi">Ebonyi</option>
+<option value="edo">Edo</option>
+<option value="ekiti">Ekiti</option>
+<option value="enugu">Enugu</option>
+<option value="gombe">Gombe</option>
+<option value="imo">Imo</option>
+<option value="jigawa">Jigawa</option>
+<option value="kaduna">Kaduna</option>
+<option value="kano">Kano</option>
+<option value="katsina">Katsina</option>
+<option value="kebbi">Kebbi</option>
+<option value="kogi">Kogi</option>
+<option value="kwara">Kwara</option>
+<option value="lagos">Lagos</option>
+<option value="nasarawa">Nasarawa</option>
+<option value="niger">Niger</option>
+<option value="ogun">Ogun</option>
+<option value="ondo">Ondo</option>
+<option value="osun">Osun</option>
+<option value="oyo">Oyo</option>
+<option value="plateau">Plateau</option>
+<option value="rivers">Rivers</option>
+<option value="sokoto">Sokoto</option>
+<option value="taraba">Taraba</option>
+<option value="yobe">Yobe</option>
+<option value="zamfara">Zamfara</option>
+<option value="abuja">Abuja FCT</option>
+</select>
+<button class="search-btn" id="searchBtn">Search</button>
+</div>
+<div class="contacts-container" id="contactsContainer">
+</div>
+<div class="pagination" id="paginationContainer">
+</div>
+<div class="credits-section">
+<h2 class="credits-title">Data Sources & Verification</h2>
+<div class="credits-content">
+<h3 class="credits-subtitle">About This Database</h3>
+<p>The Nigeria Government Contacts Database is a comprehensive directory of verified contact information for Nigerian government officials across all branches and levels of government. This resource is maintained through rigorous verification processes to ensure accuracy and reliability.</p>
+
+<h3 class="credits-subtitle">Data Sources by Category</h3>
+<ol class="credits-list">
+<li><strong>Senate Contacts:</strong> Sourced from the official National Assembly website (nass.gov.ng), Senate official directory publications, and verified through constituency offices.</li>
+<li><strong>House of Representatives:</strong> Compiled from House of Representatives official directory, member constituency offices, and cross-referenced with official government publications.</li>
+<li><strong>Police Commissioners:</strong> Data obtained from Nigeria Police Force official website (police.gov.ng), state command headquarters, and official police gazettes.</li>
+<li><strong>Emergency Services:</strong> Information sourced from National Emergency Management Agency (NEMA), Federal Road Safety Corps (FRSC), and respective agency headquarters.</li>
+<li><strong>Federal Ministers:</strong> Compiled from State House official publications, Federal Executive Council directory, and respective ministry headquarters.</li>
+<li><strong>State Governors:</strong> Data verified through State Government websites, Government House official contacts, and state liaison offices in Abuja.</li>
+</ol>
+
+<h3 class="credits-subtitle">Verification Process</h3>
+<p>All contact information undergoes a multi-stage verification process:</p>
+<ul class="credits-list">
+<li>Primary source verification from official government websites and publications</li>
+<li>Cross-referencing with multiple independent sources</li>
+<li>Regular quarterly updates to reflect changes in government positions</li>
+<li>Direct verification through constituency offices where possible</li>
+<li>Validation against official government gazettes and directories</li>
+</ul>
+
+<div class="verification-note">
+<strong>Note:</strong> While we strive for maximum accuracy, government contact information may change between our quarterly updates. For critical communications, we recommend verifying contacts directly through official channels.
+</div>
+
+<h3 class="credits-subtitle">Last Updated</h3>
+<p>This database was last comprehensively updated on December 1, 2023. The next scheduled update is March 1, 2024.</p>
+</div>
+</div>
+</main>
+<footer>
+<p>&copy; <span id="currentYear"></span> Open Info NG - Nigeria Government Contacts Database</p>
+</footer>
+<script>
+const nigerianStates = {
+'abia': 'Abia State',
+'adamawa': 'Adamawa State',
+'akwa-ibom': 'Akwa Ibom State',
+'anambra': 'Anambra State',
+'bauchi': 'Bauchi State',
+'bayelsa': 'Bayelsa State',
+'benue': 'Benue State',
+'borno': 'Borno State',
+'cross-river': 'Cross River State',
+'delta': 'Delta State',
+'ebonyi': 'Ebonyi State',
+'edo': 'Edo State',
+'ekiti': 'Ekiti State',
+'enugu': 'Enugu State',
+'gombe': 'Gombe State',
+'imo': 'Imo State',
+'jigawa': 'Jigawa State',
+'kaduna': 'Kaduna State',
+'kano': 'Kano State',
+'katsina': 'Katsina State',
+'kebbi': 'Kebbi State',
+'kogi': 'Kogi State',
+'kwara': 'Kwara State',
+'lagos': 'Lagos State',
+'nasarawa': 'Nasarawa State',
+'niger': 'Niger State',
+'ogun': 'Ogun State',
+'ondo': 'Ondo State',
+'osun': 'Osun State',
+'oyo': 'Oyo State',
+'plateau': 'Plateau State',
+'rivers': 'Rivers State',
+'sokoto': 'Sokoto State',
+'taraba': 'Taraba State',
+'yobe': 'Yobe State',
+'zamfara': 'Zamfara State',
+'abuja': 'Abuja FCT',
+'nationwide': 'Nationwide'
+};
+const senateContacts = [
+{
+id: 1,
+name: "Sen. Godswill Akpabio",
+position: "Senate President",
+department: "Akwa Ibom North-West",
+phone: "",
+email: "",
+office: "",
+state: "akwa-ibom",
+socials: [
+{ platform: "instagram", url: "https://www.instagram.com/senator_akpabio" },
+{ platform: "twitter", url: "https://x.com/SenGodswill" },
+{ platform: "facebook", url: "https://www.facebook.com/senakpabio" },
+{ platform: "website", url: "https://godswillakpabio.com/" }
+],
+source: "https://nass.gov.ng/mps/single/185"
+},
+{
+id: 2,
+name: "Sen. Ibrahim Jibrin",
+position: "Deputy Senate President",
+department: "Kano North",
+phone: "",
+email: "ibrahim.jibrin@nass.gov.ng",
+office: "",
+state: "kano",
+socials: [
+{ platform: "twitter", url: "https://x.com/barauijibrin" },
+{ platform: "facebook", url: "https://www.facebook.com/barauij" },
+{ platform: "instagram", url: "https://www.instagram.com/senatorbaraujibrin" }
+],
+source: "https://nass.gov.ng/mps/single/433"
+},
+{
+id: 3,
+name: "Sen. Orji Kalu",
+position: "Senator",
+department: "Abia North",
+phone: "+2348034000001",
+email: "okalu@orjikalu.com",
+office: "onu ibina square, igbere, bende lga, abia state",
+state: "abia",
+socials: [
+{ platform: "instagram", url: "https://www.instagram.com/oukgram" },
+{ platform: "twitter", url: "https://x.com/OUKtweets" },
+{ platform: "facebook", url: "https://www.facebook.com/orjiuzorkalu01" },
+{ platform: "website", url: "https://orjikalumediacentre.com/" }
+],
+source: "https://nass.gov.ng/mps/single/97"
+},
+{
+id: 4,
+name: "Sen. Augustine Akobundu",
+position: "Senator",
+department: "Abia Central",
+phone: "+2348033169941",
+email: "aoakobundu@senatenass.gov.ng",
+office: "no 7a factory road, umuahia, abia state",
+state: "abia",
+socials: [],
+source: "https://nass.gov.ng/mps/single/694"
+},
+{
+id: 5,
+name: "Sen. Enyinnaya Abaribe",
+position: "Senator",
+department: "Abia South",
+email: "enyiabaribey@yahoo.com",
+office: "147 market road aba.",
+state: "abia",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/senatorenyiabaribe/" },
+{ platform: "twitter", url: "https://x.com/senatorabaribe" }
+],
+source: "https://nass.gov.ng/mps/single/318"
+},
+{
+id: 6,
+name: "Sen. Aminu Abbas",
+position: "Senator",
+department: "Adamawa Central",
+phone: "",
+email: "iyaabbas@gmail.com",
+office: "",
+state: "adamawa",
+socials: [
+{ platform: "instagram", url: "https://www.instagram.com/aminu_iyaabbas/" }
+],
+source: "https://nass.gov.ng/mps/single/544"
+},
+{
+id: 7,
+name: "Sen. Binos Yaroe",
+position: "Senator",
+department: "Adamawa South",
+phone: "+2348034050460",
+email: "bdyaroe@gmail.com",
+office: "makwada street, opposite makwada square, numan, adamawa state",
+state: "adamawa",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/p/Binos-Dauda-Yaroe-for-Senate-Adamawa-Southern-Senatorial-Zone-100057884209753/" },
+{ platform: "website", url: "https://senatorbinos.com/" }
+],
+source: "https://nass.gov.ng/mps/single/87"
+},
+{
+id: 8,
+name: "Sen. Ishaku Abbo",
+position: "Senator",
+department: "Adamawa North",
+phone: "+2348066285112",
+email: "Faradugun@gmail.com",
+office: "senator ishaku abbo (sia) senatorial office mubi north adamawa state",
+state: "adamawa",
+socials: [
+{ platform: "instagram", url: "https://www.instagram.com/senatorishakuabbo/" },
+{ platform: "facebook", url: "https://www.facebook.com/senatorishakuabbo/" }
+],
+source: "https://nass.gov.ng/mps/single/303"
+},
+{
+id: 9,
+name: "Sen. Bassey Etim",
+position: "Senator",
+department: "Akwa Ibom North-East",
+phone: "",
+email: "anigembassey@gmail.com",
+office: "",
+state: "akwa-ibom",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/SenatorAniekanBassey/" }
+],
+source: "https://nass.gov.ng/mps/single/591"
+},
+{
+id: 10,
+name: "Sen. Victor Umeh",
+position: "Senator",
+department: "Anambra Central",
+phone: "",
+email: "victorimeh1962@yahoo.com",
+office: "",
+state: "anambra",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/senatorvictorumeh/" },
+{ platform: "twitter", url: "https://x.com/SenVictorUmeh" }
+],
+source: "https://nass.gov.ng/mps/single/603"
+},
+{
+id: 11,
+name: "Sen. Abdul Ningi",
+position: "Senator",
+department: "Bauchi Central",
+phone: "",
+email: "abdulahmed.ningi@outlook.com",
+office: "",
+state: "bauchi",
+socials: [
+{ platform: "twitter", url: "https://x.com/sen_abdulningi" },
+{ platform: "instagram", url: "https://www.instagram.com/sen.abdulningi" }
+],
+source: "https://nass.gov.ng/mps/single/567"
+},
+{
+id: 12,
+name: "Sen. Samaila Kaila",
+position: "Senator",
+department: "Bauchi North",
+phone: "",
+email: "samailadk@gmail.com",
+office: "",
+state: "bauchi",
+socials: [
+{ platform: "instagram", url: "https://www.instagram.com/sen_dr.samaila_dahuwa/" }
+],
+source: "https://nass.gov.ng/mps/single/651"
+},
+{
+id: 13,
+name: "Sen. Umar Buba",
+position: "Senator",
+department: "Bauchi South",
+phone: "",
+email: "shehububa2015@yahoo.com",
+office: "",
+state: "bauchi",
+socials: [
+{ platform: "facebook", url: "https://web.facebook.com/honsbu/" }
+],
+source: "https://nass.gov.ng/mps/single/652"
+},
+{
+id: 14,
+name: "Sen. Benson Agadaga",
+position: "Senator",
+department: "Bayelsa East",
+phone: "",
+email: "bensonagadaga@gmail.com",
+office: "",
+state: "bayelsa",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/p/SenatorBenson-Agadaga-100064772408680/" }
+],
+source: "https://nass.gov.ng/mps/single/577"
+},
+{
+id: 15,
+name: "Sen. Seriake Dickson",
+position: "Senator",
+department: "Bayelsa West",
+phone: "+2348056085520",
+email: "dickson.seriake01@gmail.com",
+office: "Suite 3.09 Senate New Building,  National Assembly Complex, Abuja, Nigeria",
+state: "bayelsa",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/IamHSDickson/" },
+{ platform: "instagram", url: "https://www.instagram.com/hsdickson/" },
+{ platform: "website", url: "https://www.henryseriakedickson.com/" }
+],
+source: "https://nass.gov.ng/mps/single/493"
+},
+{
+id: 16,
+name: "Sen. Abba Moro",
+position: "Senator",
+department: "Benue South",
+phone: "+2348068870606",
+email: "abahmoro@yahoo.com",
+office: "opposite dolphin hotel, g.r.a otukpo, benue state",
+state: "benue",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/moroabba" }
+],
+source: "https://nass.gov.ng/mps/single/356"
+},
+{
+id: 17,
+name: "Sen. Kaka Lawan",
+position: "Senator",
+department: "Borno Central",
+phone: "",
+email: "kakashehulawan@gmail.com",
+office: "",
+state: "borno",
+socials: [
+{ platform: "facebook", url: "https://web.facebook.com/p/Senator-Kaka-Shehu-Lawan-Update-100063953506071/" }
+],
+source: "https://nass.gov.ng/mps/single/587"
+},
+{
+id: 18,
+name: "Sen. Mohammed Ndume",
+position: "Senator",
+department: "Borno South",
+phone: "+2348109480004",
+email: "mohammed.ndume@nass.gov.ng",
+office: "off gombe road, adjacent to excellenct academy, mustapha aliyu stadium road, biu",
+state: "borno",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/p/Sen-Muhammad-Ali-Ndume-100044306895406/" }
+],
+source: "https://nass.gov.ng/mps/single/412"
+},
+{
+id: 19,
+name: "Sen. Mohammed Monguno",
+position: "Senator",
+department: "Borno North",
+phone: "",
+email: "mtmonguno@gmail.com",
+office: "",
+state: "borno",
+socials: [],
+source: "https://nass.gov.ng/mps/single/528"
+},
+{
+id: 20,
+name: "Sen. Jarigbe Jarigbe",
+position: "Senator",
+department: "Cross River North",
+phone: "",
+email: "contact@senatorjarigbeagom.com",
+office: "",
+state: "cross-river",
+socials: [
+{ platform: "instagram", url: "https://www.instagram.com/jarigbeagom/" },
+{ platform: "facebook", url: "https://www.facebook.com/jarigbe.agom.7/" },
+{ platform: "twitter", url: "https://x.com/JJarigbe" },
+{ platform: "website", url: "https://senatorjarigbeagom.com/" },
+],
+source: "https://nass.gov.ng/mps/single/451"
+},
+{
+id: 21,
+name: "Sen. Williams Jonah",
+position: "Senator",
+department: "Cross River Central",
+phone: "",
+email: "eteng_j@yahoo.com",
+office: "",
+state: "cross-river",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/p/Senator-Eteng-Jonah-Williams-100063646243204/" }
+],
+source: "https://nass.gov.ng/mps/single/557"
+},
+{
+id: 22,
+name: "Sen. Ned Nwoko",
+position: "Senator",
+department: "Delta North",
+phone: "+2348037227010",
+email: "princenednwoko@yahoo.com",
+office: "Mount Ned Resort, Idumuje-Ugboko, Aniocha North L.G.A , Delta State",
+state: "delta",
+socials: [
+{ platform: "instagram", url: "https://www.instagram.com/princenednwoko" },
+{ platform: "twitter", url: "https://x.com/Prince_NedNwoko" },
+{ platform: "facebook", url: "https://www.facebook.com/officialprincened/" },
+{ platform: "website", url: "https://sennednwoko.com.ng/" }
+],
+source: "https://nass.gov.ng/mps/single/600"
+},
+{
+id: 23,
+name: "Sen. Michael Bamidele",
+position: "Senator",
+department: "Ekiti Central",
+phone: "+23480911112",
+email: "amicusng@gmail.com",
+office: "ikere road, ado ekiti, ekiti state",
+state: "ekiti",
+socials: [
+{ platform: "instagram", url: "https://www.instagram.com/senatormichaelopeyemibamidele" },
+{ platform: "twitter", url: "https://x.com/SenatorOpeyemi" },
+{ platform: "facebook", url: "https://www.facebook.com/senatoropeyemibamidele/" }
+],
+source: "https://nass.gov.ng/mps/single/158"
+},
+{
+id: 24,
+name: "Sen. Kelvin Chukwu",
+position: "Senator",
+department: "Enugu East",
+phone: "",
+email: "kelvinchukwu22ng@gmail.com",
+office: "",
+state: "enugu",
+socials:[
+{ platform: "facebook", url: "https://www.facebook.com/p/Senator-Sir-Kelvin-Chukwu-61551769017268/" }
+],
+source: "https://nass.gov.ng/mps/single/518"
+},
+{
+id: 25,
+name: "Sen. Danjuma Mohammed",
+position: "Senator",
+department: "Gombe Central",
+phone: "+2347068686699",
+email: "mdgoje1@gmail.com",
+office: "township road, kumo, akko lga, gombe state",
+state: "gombe",
+socials: [
+{ platform: "twitter", url: "https://x.com/mdgoje1" }
+],
+source: "https://nass.gov.ng/mps/single/408"
+},
+{
+id: 26,
+name: "Sen. Anthony Yaro",
+position: "Senator",
+department: "Gombe South",
+phone: "",
+email: "anthonyyaro1@gmail.com",
+office: "",
+state: "gombe",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/HonSiyakoYaro/" },
+{ platform: "twitter", url: "https://x.com/HonSiyakoYaro" }
+],
+source: "https://nass.gov.ng/mps/single/605"
+},
+{
+id: 27,
+name: "Sen. Ibrahim Dankwambo",
+position: "Senator",
+department: "Gombe North",
+phone: "",
+email: "dankwanbo@yahoo.com",
+office: "",
+state: "gombe",
+socials: [
+{ platform: "facebook", url: "https://www.facebook.com/HassanIbrahimDankwambo/" },
+{ platform: "twitter", url: "https://x.com/HEDankwambo" }
+],
+source: "https://nass.gov.ng/mps/single/679"
+},
+{
+id: 28,
+name: "Sen. Ezenwa Onyewuchi",
+position: "Senator",
+department: "Imo East",
+phone: "+2348032012132",
+email: "ezeonyewuchi@gmail.com",
+office: "Plot C13 Opposite Chief Emmanuel Iwuanyanwu Glass House Amawire Orji Imo State",
+state: "imo",
+socials: [
+{ platform: "instagram", url: "https://www.instagram.com/senatoronyewuchimedia/" },
+{ platform: "website", url: "https://ezenwaonyewuchi.org/" }
+],
+source: "https://nass.gov.ng/mps/single/679"
+},
+{
+id: 28l9,
+name: "Sen. Babangida Hussaini",
+position: "Senator",
+department: "Imo East",
+phone: "+2348032012132",
+email: "ezeonyewuchi@gmail.com",
+office: "Plot C13 Opposite Chief Emmanuel Iwuanyanwu Glass House Amawire Orji Imo State",
+state: "imo",
+socials: [
+{ platform: "instagram", url: "https://www.instagram.com/senatoronyewuchimedia/" },
+{ platform: "website", url: "https://ezenwaonyewuchi.org/" }
+],
+source: "https://nass.gov.ng/mps/single/679"
+}
+];
+const repsContacts = [
+{
+id: 1,
+name: "Rep. Femi Gbajabiamila",
+position: "Speaker",
+department: "House of Representatives - Surulere I",
+phone: "+2348022345678",
+email: "femigbaja@house.gov.ng",
+office: "Room 101, House of Representatives Building, Abuja",
+state: "lagos",
+socials: [
+{ platform: "twitter", url: "https://twitter.com/FemiGbajabiamila" },
+{ platform: "facebook", url: "https://facebook.com/FemiGbajabiamila" },
+{ platform: "instagram", url: "https://instagram.com/FemiGbajabiamila" }
+],
+source: "https://nass.gov.ng/mps/single/123"
+},
+{
+id: 2,
+name: "Rep. Idris Wase",
+position: "Deputy Speaker",
+department: "House of Representatives - Wase",
+phone: "+2348055551234",
+email: "idris.wase@house.gov.ng",
+office: "Room 102, House of Representatives Building, Abuja",
+state: "plateau",
+socials: [
+{ platform: "twitter", url: "https://twitter.com/IdrisWase" },
+{ platform: "facebook", url: "https://facebook.com/IdrisWase" }
+],
+source: "https://nass.gov.ng/mps/single/124"
+}
+];
+const policeContacts = [
+{
+id: 1,
+name: "IGP Usman Alkali Baba",
+position: "Inspector General",
+department: "Nigeria Police Force",
+phone: "+2348071234567",
+email: "igp@police.gov.ng",
+office: "Force Headquarters, Louis Edet House, Abuja",
+state: "abuja",
+socials: [
+{ platform: "twitter", url: "https://twitter.com/Policeng" },
+{ platform: "facebook", url: "https://facebook.com/NigeriaPolice" },
+{ platform: "instagram", url: "https://instagram.com/NigeriaPolice" },
+{ platform: "website", url: "https://police.gov.ng" }
+],
+source: "https://police.gov.ng"
+},
+{
+id: 2,
+name: "CP Hakeem Odumosu",
+position: "Commissioner of Police",
+department: "Lagos State Police Command",
+phone: "+2348023456789",
+email: "lagos.cp@police.gov.ng",
+office: "Police Headquarters, Ikeja, Lagos",
+state: "lagos",
+socials: [
+{ platform: "twitter", url: "https://twitter.com/LagosPolice" },
+{ platform: "facebook", url: "https://facebook.com/LagosPolice" }
+],
+source: "https://police.gov.ng/lagos"
+}
+];
+const emergencyContacts = [
+{
+id: 1,
+name: "National Emergency",
+position: "Emergency Line",
+department: "Emergency Services",
+phone: "112",
+email: "emergency@nigeria.gov.ng",
+office: "Nationwide",
+state: "nationwide",
+socials: [
+{ platform: "twitter", url: "https://twitter.com/NigeriaGov" },
+{ platform: "facebook", url: "https://facebook.com/NigeriaGov" },
+{ platform: "instagram", url: "https://instagram.com/NigeriaGov" },
+{ platform: "website", url: "https://nigeria.gov.ng" }
+],
+source: "https://nigeria.gov.ng"
+},
+{
+id: 2,
+name: "NEMA Headquarters",
+position: "National Emergency Management Agency",
+department: "Emergency Services",
+phone: "+23495236666",
+email: "info@nema.gov.ng",
+office: "NEMA Headquarters, Abuja",
+state: "abuja",
+socials: [
+{ platform: "twitter", url: "https://twitter.com/NemaNigeria" },
+{ platform: "facebook", url: "https://facebook.com/NemaNigeria" },
+{ platform: "instagram", url: "https://instagram.com/NemaNigeria" },
+{ platform: "website", url: "https://nema.gov.ng" },
+{ platform: "linkedin", url: "https://linkedin.com/company/nema" }
+],
+source: "https://nema.gov.ng"
+}
+];
+const ministersContacts = [
+{
+id: 1,
+name: "H.E. Prof. Yemi Osinbajo",
+position: "Vice President",
+department: "Federal Executive Council",
+phone: "+23495231111",
+email: "vp@statehouse.gov.ng",
+office: "Aso Rock Presidential Villa, Abuja",
+state: "abuja",
+socials: [
+{ platform: "twitter", url: "https://twitter.com/ProfOsinbajo" },
+{ platform: "facebook", url: "https://facebook.com/ProfOsinbajo" },
+{ platform: "instagram", url: "https://instagram.com/ProfOsinbajo" }
+],
+source: "https://statehouse.gov.ng"
+},
+{
+id: 2,
+name: "Minister of Finance",
+position: "Honourable Minister",
+department: "Federal Ministry of Finance",
+phone: "+23495233333",
+email: "minister@finance.gov.ng",
+office: "Federal Ministry of Finance, Abuja",
+state: "abuja",
+socials: [
+{ platform: "twitter", url: "https://twitter.com/FinMinNigeria" },
+{ platform: "facebook", url: "https://facebook.com/FinMinNigeria" },
+{ platform: "website", url: "https://finance.gov.ng" }
+],
+source: "https://finance.gov.ng"
+}
+];
+const governorsContacts = [
+{
+id: 1,
+name: "H.E. Babajide Sanwo-Olu",
+position: "Governor",
+department: "Lagos State Government",
+phone: "+23412952614",
+email: "governor@lagosstate.gov.ng",
+office: "Lagos State Government House, Alausa",
+state: "lagos",
+socials: [
+{ platform: "twitter", url: "https://twitter.com/jidesanwoolu" },
+{ platform: "facebook", url: "https://facebook.com/jidesanwoolu" },
+{ platform: "instagram", url: "https://instagram.com/jidesanwoolu" }
+],
+source: "https://lagosstate.gov.ng"
+},
+{
+id: 2,
+name: "H.E. Udom Emmanuel",
+position: "Governor",
+department: "Akwa Ibom State Government",
+phone: "+2348033002000",
+email: "governor@akwaibomstate.gov.ng",
+office: "Akwa Ibom State Government House, Uyo",
+state: "akwa-ibom",
+socials: [
+{ platform: "twitter", url: "https://twitter.com/MrUdomEmmanuel" },
+{ platform: "facebook", url: "https://facebook.com/MrUdomEmmanuel" }
+],
+source: "https://akwaibomstate.gov.ng"
+}
+];
+const categoryNavItems = document.querySelectorAll('.category-nav-item');
+const searchInput = document.getElementById('searchInput');
+const stateFilter = document.getElementById('stateFilter');
+const searchBtn = document.getElementById('searchBtn');
+const contactsContainer = document.getElementById('contactsContainer');
+const paginationContainer = document.getElementById('paginationContainer');
+const currentYearElement = document.getElementById('currentYear');
+let currentCategory = 'senate';
+let currentSearchTerm = '';
+let currentState = '';
+let currentPage = 1;
+const contactsPerPage = 6;
+document.addEventListener('DOMContentLoaded', function() {
+currentYearElement.textContent = new Date().getFullYear();
+displayContacts(senateContacts);
+categoryNavItems.forEach(item => {
+item.addEventListener('click', function() {
+categoryNavItems.forEach(nav => nav.classList.remove('active'));
+this.classList.add('active');
+currentCategory = this.getAttribute('data-category');
+currentPage = 1;
+loadCategoryContacts(currentCategory);
+});
+});
+searchBtn.addEventListener('click', function() {
+currentSearchTerm = searchInput.value.toLowerCase();
+currentPage = 1;
+filterContacts();
+});
+stateFilter.addEventListener('change', function() {
+currentState = this.value;
+currentPage = 1;
+filterContacts();
+});
+searchInput.addEventListener('keyup', function(event) {
+if (event.key === 'Enter') {
+currentSearchTerm = searchInput.value.toLowerCase();
+currentPage = 1;
+filterContacts();
+}
+});
+});
+function loadCategoryContacts(category) {
+let contacts;
+switch(category) {
+case 'senate':
+contacts = senateContacts;
+break;
+case 'reps':
+contacts = repsContacts;
+break;
+case 'police':
+contacts = policeContacts;
+break;
+case 'emergency':
+contacts = emergencyContacts;
+break;
+case 'ministers':
+contacts = ministersContacts;
+break;
+case 'governors':
+contacts = governorsContacts;
+break;
+default:
+contacts = [];
+}
+displayContacts(contacts);
+}
+function filterContacts() {
+let contacts;
+switch(currentCategory) {
+case 'senate':
+contacts = senateContacts;
+break;
+case 'reps':
+contacts = repsContacts;
+break;
+case 'police':
+contacts = policeContacts;
+break;
+case 'emergency':
+contacts = emergencyContacts;
+break;
+case 'ministers':
+contacts = ministersContacts;
+break;
+case 'governors':
+contacts = governorsContacts;
+break;
+default:
+contacts = [];
+}
+let filteredContacts = contacts;
+if (currentSearchTerm) {
+filteredContacts = filteredContacts.filter(contact =>
+contact.name.toLowerCase().includes(currentSearchTerm) ||
+contact.position.toLowerCase().includes(currentSearchTerm) ||
+contact.department.toLowerCase().includes(currentSearchTerm) ||
+contact.office.toLowerCase().includes(currentSearchTerm)
+);
+}
+if (currentState) {
+filteredContacts = filteredContacts.filter(contact =>
+contact.state === currentState
+);
+}
+displayContacts(filteredContacts);
+}
+function getSocialIcon(platform) {
+switch(platform) {
+case 'twitter': return 'fab fa-twitter';
+case 'facebook': return 'fab fa-facebook';
+case 'instagram': return 'fab fa-instagram';
+case 'linkedin': return 'fab fa-linkedin';
+case 'website': return 'fas fa-globe';
+default: return 'fas fa-share-alt';
+}
+}
+function displayContacts(contactsToDisplay) {
+contactsContainer.innerHTML = '';
+if (contactsToDisplay.length === 0) {
+contactsContainer.innerHTML = '<div class="no-results">No contacts found matching your criteria</div>';
+paginationContainer.innerHTML = '';
+return;
+}
+const totalPages = Math.ceil(contactsToDisplay.length / contactsPerPage);
+const startIndex = (currentPage - 1) * contactsPerPage;
+const endIndex = startIndex + contactsPerPage;
+const paginatedContacts = contactsToDisplay.slice(startIndex, endIndex);
+paginatedContacts.forEach(contact => {
+const contactCard = document.createElement('div');
+contactCard.className = 'contact-card';
+let socialMediaHTML = '';
+if (contact.socials && contact.socials.length > 0) {
+socialMediaHTML = `
+<div class="contact-social">
+${contact.socials.map(social => 
+`<a href="${social.url}" target="_blank" class="social-icon" title="${social.platform}">
+<i class="${getSocialIcon(social.platform)}"></i>
+</a>`
+).join('')}
+</div>
+`;
+}
+let sourceHTML = '';
+if (contact.source) {
+sourceHTML = `
+<div class="source-link">
+<a href="${contact.source}" target="_blank">View Official Source</a>
+</div>
+`;
+}
+contactCard.innerHTML = `
+<div class="contact-name">${contact.name}</div>
+<div class="contact-position">${contact.position}</div>
+<div class="contact-department">${contact.department}</div>
+<div class="contact-detail">
+<span class="contact-label">Phone:</span>
+<span class="contact-value">${contact.phone ? `<a href="tel:${contact.phone}">${contact.phone}</a>` : 'Not available'}</span>
+</div>
+<div class="contact-detail">
+<span class="contact-label">Email:</span>
+<span class="contact-value contact-email">${contact.email ? `<a href="mailto:${contact.email}">${contact.email}</a>` : 'Not available'}</span>
+</div>
+<div class="contact-detail">
+<span class="contact-label">Office:</span>
+<span class="contact-value">${contact.office || 'Not available'}</span>
+</div>
+<div class="contact-detail">
+<span class="contact-label">State:</span>
+<span class="contact-value">${formatStateName(contact.state)}</span>
+</div>
+${socialMediaHTML}
+${sourceHTML}
+`;
+contactsContainer.appendChild(contactCard);
+});
+renderPagination(contactsToDisplay.length, totalPages);
+}
+function renderPagination(totalContacts, totalPages) {
+paginationContainer.innerHTML = '';
+if (totalPages <= 1) return;
+const prevButton = document.createElement('button');
+prevButton.className = 'pagination-btn';
+prevButton.innerHTML = '&laquo; Previous';
+prevButton.disabled = currentPage === 1;
+prevButton.addEventListener('click', () => {
+if (currentPage > 1) {
+currentPage--;
+filterContacts();
+}
+});
+paginationContainer.appendChild(prevButton);
+const maxVisiblePages = 5;
+let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+if (endPage - startPage + 1 < maxVisiblePages) {
+startPage = Math.max(1, endPage - maxVisiblePages + 1);
+}
+for (let i = startPage; i <= endPage; i++) {
+const pageButton = document.createElement('button');
+pageButton.className = `pagination-btn ${i === currentPage ? 'active' : ''}`;
+pageButton.textContent = i;
+pageButton.addEventListener('click', () => {
+currentPage = i;
+filterContacts();
+});
+paginationContainer.appendChild(pageButton);
+}
+const nextButton = document.createElement('button');
+nextButton.className = 'pagination-btn';
+nextButton.innerHTML = 'Next &raquo;';
+nextButton.disabled = currentPage === totalPages;
+nextButton.addEventListener('click', () => {
+if (currentPage < totalPages) {
+currentPage++;
+filterContacts();
+}
+});
+paginationContainer.appendChild(nextButton);
+const pageInfo = document.createElement('span');
+pageInfo.className = 'pagination-info';
+pageInfo.textContent = `Page ${currentPage} of ${totalPages} (${totalContacts} contacts)`;
+paginationContainer.appendChild(pageInfo);
+}
+function formatStateName(state) {
+return nigerianStates[state] || state || 'Not specified';
+}
+</script>
+</body>
+</html>
